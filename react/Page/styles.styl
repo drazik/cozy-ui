@@ -1,0 +1,82 @@
+@require '../../stylus/tools/mixins'
+@require '../../stylus/settings/palette'
+@require '../../stylus/components/button'
+@require '../../stylus/utilities/display'
+@require '../../stylus/components/modals'
+
+.c-modal-container
+    @extend $modals
+
+.c-modal-wrapper
+    @extend $modal-wrapper
+
+    &.c-modal-wrapper--fullscreen
+        @extend $modal-wrapper--fullscreen
+
+.c-modal
+    @extend $modal
+
+    &.c-modal--fullscreen
+        @extend $modal--fullscreen
+
+.c-modal--small
+    @extend $modal--small
+
+.c-modal--medium
+    @extend $modal--medium
+
+.c-modal--large
+    @extend $modal--large
+
+.c-modal--xlarge
+    @extend $modal--xlarge
+
+.c-modal--xxlarge
+    @extend $modal--xxlarge
+
+
+.c-modal-header
+    @extend $modal-header
+
+    .c-modal--closable &
+        @extend $modal-header--closable
+
+.c-modal-header--branded
+    @extend $modal-header--branded
+
+.c-modal-footer
+    @extend $modal-footer
+
+.c-modal-footer--button
+    @extend $modal-footer--button
+
+.c-modal-section
+    @extend $modal-section
+
+.c-modal-content
+    @extend $modal-content
+
+.c-modal--small-spacing
+    .c-modal-close
+        @extend $modal-close--small
+    .c-modal-header
+        @extend $modal-header--small
+    .c-modal-content
+        @extend $modal-content--small
+
+.c-modal--large-spacing
+    .c-modal-close
+        @extend $modal-close--large
+    .c-modal-header
+        @extend $modal-header--large
+    .c-modal-content
+        @extend $modal-content--large
+
+.c-modal-close
+    @extend $modal-close
+
+.c-modal--overflowHidden
+    @extend $modal--hidden
+
+.c-modal-close + .c-modal-content
+    margin-top 4rem
