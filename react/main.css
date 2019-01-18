@@ -7505,7 +7505,9 @@ body {
 }
 .toggle--subtle--2iZ90 {
   width: 1.563rem;
-  height: 0.75rem;
+  height: 1rem;
+  display: inline-flex;
+  align-items: center;
 }
 .checkbox--3ko96 {
   display: none;
@@ -7534,6 +7536,9 @@ body {
   background: var(--white);
   transition: all 0.2s ease-out;
 }
+.toggle--subtle--2iZ90 .label--3jY1f {
+  height: 0.75rem;
+}
 .toggle--subtle--2iZ90 .label--3jY1f:before {
   width: 1rem;
   height: 1rem;
@@ -7551,6 +7556,9 @@ body {
 }
 .toggle--subtle--2iZ90 .checkbox--3ko96:checked + .label--3jY1f:before {
   left: 0.563rem;
+}
+.checkbox--3ko96:disabled + .label--3jY1f {
+  cursor: default;
 }
 
 :root {
