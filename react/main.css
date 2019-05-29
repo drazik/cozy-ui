@@ -10632,6 +10632,13 @@ body {
   background-color: var(--chablis);
   color: var(--pomegranate);
 }
+.c-chip--outlinedNormalTheme--itU6s {
+  border-color: var(--silver);
+  color: var(--charcoalGrey);
+}
+.c-chip--outlinedErrorTheme--1QRfD {
+  border-color: var(--yourPink);
+}
 .c-chip--clickable--20ff- {
   cursor: pointer;
 }
@@ -10649,10 +10656,6 @@ body {
 }
 .c-chip-button--disabled--168tG {
   color: var(--coolGrey);
-}
-.c-chip--outlinedVariant--BP7oS.c-chip--normalTheme--kVm5M {
-  border-color: var(--silver);
-  color: var(--charcoalGrey);
 }
 
 :root {
@@ -24912,6 +24915,7 @@ iframe {
   width: 100%;
   flex-grow: 0;
   flex-shrink: 0;
+  object-fit: contain;
 }
 .c-app-icon-default--3CEmt {
   color: #c0c0c0;
