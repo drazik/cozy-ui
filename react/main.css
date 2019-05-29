@@ -10615,29 +10615,42 @@ body {
 }
 .c-chip--outlinedVariant--BP7oS {
   border: 1px solid;
-  background-color: transparent !important;
 }
 .c-chip--dashedVariant--2LWN4 {
   border: 1px dashed;
 }
 .c-chip--normalTheme--kVm5M {
+  border-color: var(--silver);
   background-color: var(--paleGrey);
   color: inherit;
 }
 .c-chip--primaryTheme--1ZNhX {
+  border-color: var(--frenchPass);
   background-color: var(--zircon);
   color: var(--dodgerBlue);
 }
 .c-chip--errorTheme--2hVXe {
+  border-color: var(--yourPink);
   background-color: var(--chablis);
   color: var(--pomegranate);
 }
-.c-chip--outlinedNormalTheme--itU6s {
-  border-color: var(--silver);
+.c-chip--hoverableNormalTheme--271-M {
   color: var(--charcoalGrey);
 }
-.c-chip--outlinedErrorTheme--1QRfD {
-  border-color: var(--yourPink);
+.c-chip--hoverableNormalTheme--271-M:hover,
+.c-chip--hoverableNormalTheme--271-M:focus {
+  background-color: var(--silver);
+}
+.c-chip--hoverablePrimaryTheme--12PPV:hover,
+.c-chip--hoverablePrimaryTheme--12PPV:focus {
+  background-color: var(--frenchPass);
+}
+.c-chip--hoverableErrorTheme--wospw:hover,
+.c-chip--hoverableErrorTheme--wospw:focus {
+  background-color: var(--yourPink);
+}
+.c-chip--outlinedNormalTheme--itU6s {
+  background-color: transparent;
 }
 .c-chip--clickable--20ff- {
   cursor: pointer;
