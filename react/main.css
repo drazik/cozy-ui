@@ -11771,6 +11771,17 @@ body {
   height: 5px;
 }
 
+.PercentageBar--12TWu {
+  background-color: var(--paleGrey);
+  border: 1px solid var(--silver);
+  height: 1.5rem;
+  border-radius: 4px;
+}
+.PercentageBar__line--1DAnN {
+  height: 100%;
+  border-radius: 4px;
+}
+
 .u-p-0 {
   padding: 0 !important;
 }
