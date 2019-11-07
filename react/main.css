@@ -7603,6 +7603,7 @@ body {
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
   --primaryContrastTextColor: var(--white);
+  --errorColor: var(--pomegranate);
 }
 @-moz-keyframes spin--lXiub {
   from {
@@ -11021,6 +11022,7 @@ body {
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
   --primaryContrastTextColor: var(--white);
+  --errorColor: var(--pomegranate);
 }
 .c-chip--2aPqg {
   box-sizing: border-box;
@@ -11250,6 +11252,7 @@ body {
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
   --primaryContrastTextColor: var(--white);
+  --errorColor: var(--pomegranate);
 }
 .c-card--YgP7B {
   border: 0.063rem solid var(--silver);
@@ -11458,6 +11461,7 @@ body {
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
   --primaryContrastTextColor: var(--white);
+  --errorColor: var(--pomegranate);
 }
 .c-inline-card--1sri1 {
   display: inline-block;
@@ -11649,6 +11653,7 @@ body {
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
   --primaryContrastTextColor: var(--white);
+  --errorColor: var(--pomegranate);
 }
 @-moz-keyframes spin--3Lqkt {
   from {
@@ -11777,7 +11782,7 @@ body {
   height: 1.5rem;
   border-radius: 4px;
 }
-.PercentageBar__line--1DAnN {
+.PercentageBar--12TWu .PercentageBar__line--1DAnN {
   height: 100%;
   border-radius: 4px;
 }
@@ -14900,6 +14905,7 @@ body {
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
   --primaryContrastTextColor: var(--white);
+  --errorColor: var(--pomegranate);
 }
 .c-input-checkbox--svg--3YMZN span::after {
   display: none;
@@ -18072,6 +18078,7 @@ body {
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
   --primaryContrastTextColor: var(--white);
+  --errorColor: var(--pomegranate);
 }
 .select-control__input--1xDlj {
   width: 0;
@@ -19717,6 +19724,7 @@ body {
 .c-inputgroup--12OVJ {
   display: inline-flex;
   flex-direction: row;
+  box-sizing: border-box;
   align-items: stretch;
   width: 100%;
   max-width: 32rem;
@@ -20722,6 +20730,7 @@ body {
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
   --primaryContrastTextColor: var(--white);
+  --errorColor: var(--pomegranate);
 }
 .toggle--3zVsE {
   display: inline-block;
@@ -21865,6 +21874,7 @@ body {
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
   --primaryContrastTextColor: var(--white);
+  --errorColor: var(--pomegranate);
 }
 .c-nav--33dZy {
   margin: 1.5rem 0;
@@ -22051,6 +22061,10 @@ body {
 .PageLayout--1ptQY {
   display: flex;
   flex-direction: column;
+}
+
+.NarrowContent--Zq8oI {
+  max-width: 32rem;
 }
 
 .c-overlay--31iWd {
@@ -24383,6 +24397,7 @@ body {
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
   --primaryContrastTextColor: var(--white);
+  --errorColor: var(--pomegranate);
 }
 .c-accordion--1VRom {
   padding: 0;
@@ -25847,6 +25862,7 @@ body {
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
   --primaryContrastTextColor: var(--white);
+  --errorColor: var(--pomegranate);
 }
 @-moz-keyframes spin--1LlbU {
   from {
@@ -28591,6 +28607,7 @@ body {
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
   --primaryContrastTextColor: var(--white);
+  --errorColor: var(--pomegranate);
 }
 .u-visuallyhidden {
   position: absolute !important;
