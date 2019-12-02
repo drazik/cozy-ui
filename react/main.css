@@ -15721,7 +15721,7 @@ body {
   flex-basis: 8rem;
   flex-shrink: 0;
   flex-grow: 0;
-  padding: 0.75rem 0;
+  padding: 1rem 0;
 }
 @media (max-width: 48rem) {
   .o-field--inline--7JWZ8 label {
@@ -19819,7 +19819,7 @@ body {
 }
 
 @media (max-width: 48rem) {
-  .ContactsListModal__header--3SSCg {
+  .ContactsListModal__header--3SSCg.ContactsListModal__header--3SSCg {
     background-color: var(--primaryColor);
     padding: 0.75rem 0;
     height: 3rem;
@@ -19827,20 +19827,20 @@ body {
     align-items: center;
     box-sizing: border-box;
   }
-  .ContactsListModal__header--3SSCg input {
+  .ContactsListModal__header--3SSCg.ContactsListModal__header--3SSCg input {
     background-color: transparent;
     border: 0;
     color: var(--white);
     padding-left: 0.5rem;
   }
-  .ContactsListModal__header--3SSCg input:focus {
+  .ContactsListModal__header--3SSCg.ContactsListModal__header--3SSCg input:focus {
     border: 0;
   }
-  .ContactsListModal__header--3SSCg input::placeholder {
+  .ContactsListModal__header--3SSCg.ContactsListModal__header--3SSCg input::placeholder {
     color: inherit;
   }
 }
-.ContactsListModal__description--ZWegl {
+.ContactsListModal__description--ZWegl.ContactsListModal__description--ZWegl {
   padding: 0;
 }
 
