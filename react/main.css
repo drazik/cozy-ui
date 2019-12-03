@@ -19843,6 +19843,22 @@ body {
 .ContactsListModal__description--ZWegl.ContactsListModal__description--ZWegl {
   padding: 0;
 }
+.ContactsListModal__addContactContainer--2W-dE {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  margin: 0 0.5rem 1rem;
+}
+@media (max-width: 48rem) {
+  .ContactsListModal__addContactContainer--2W-dE > * {
+    flex: 1;
+  }
+}
+
+.EmptyMessage--2T8TF {
+  padding: 0 1rem;
+  text-align: center;
+}
 
 .list-contact--8ztoP {
   position: relative;
