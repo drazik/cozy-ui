@@ -19987,6 +19987,9 @@ body {
 .contact-lastname--134MM {
   font-weight: bold;
 }
+.contact-avatar--3lZPs {
+  flex-shrink: 0;
+}
 @media (max-width: 48rem) {
   .contact-identity--mL3IJ,
   .contact-phone--1sA_m,
