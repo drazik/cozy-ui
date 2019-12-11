@@ -13977,6 +13977,10 @@ body {
     margin-right: 2.5rem !important;
   }
 }
+.Stack--2Wsor {
+  display: flex;
+  flex-direction: column;
+}
 .Stack--m--1tSpV > * + * {
   margin-top: 1rem;
 }
