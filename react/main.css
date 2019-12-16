@@ -30612,6 +30612,60 @@ body {
   margin-left: 1rem;
 }
 
+.PasswordField--1y2i8 {
+  display: inline-flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 32rem;
+}
+.PasswordField--withStrength--T9ot1 {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.PasswordField__strength--1jZSS {
+  background-color: var(--paleGrey);
+  border-radius: 0.188rem;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border: 0.063rem solid var(--silver);
+  border-top: 0;
+  box-sizing: border-box;
+  height: 0.25rem;
+}
+.PasswordField__strength--weak--1V3gx {
+  color: var(--pomegranate);
+}
+.PasswordField__strength--weak--1V3gx::-webkit-progress-value {
+  background-color: var(--pomegranate);
+}
+.PasswordField__strength--weak--1V3gx::-moz-progress-bar {
+  background-color: var(--pomegranate);
+}
+.PasswordField__strength--moderate--d6CdS {
+  color: var(--texasRose);
+}
+.PasswordField__strength--moderate--d6CdS::-webkit-progress-value {
+  background-color: var(--texasRose);
+}
+.PasswordField__strength--moderate--d6CdS::-moz-progress-bar {
+  background-color: var(--texasRose);
+}
+.PasswordField__strength--strong--1dMU2 {
+  color: var(--emerald);
+}
+.PasswordField__strength--strong--1dMU2::-webkit-progress-value {
+  background-color: var(--emerald);
+}
+.PasswordField__strength--strong--1dMU2::-moz-progress-bar {
+  background-color: var(--emerald);
+}
+.PasswordField__visibilityButton--3d4Ji {
+  height: 100%;
+  width: 3rem;
+  background-color: transparent;
+  border: 0;
+}
+
 .u-p-0 {
   padding: 0 !important;
 }
