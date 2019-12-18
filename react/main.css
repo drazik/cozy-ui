@@ -26501,13 +26501,172 @@ body {
   }
 }
 
+:root {
+/*
+    Grey
+
+    Stylus: white        -  #FFFFFF, CSS: var(--white)
+    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
+    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
+    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
+    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
+    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
+    Stylus: black        -  #000000, CSS: var(--black)
+
+    Weight: -1
+
+    Styleguide Settings.colors.grey
+    */
+  --white: #fff;
+  --paleGrey: #f5f6f7;
+  --silver: #d6d8da;
+  --coolGrey: #95999d;
+  --slateGrey: #5d6165;
+  --charcoalGrey: #32363f;
+  --black: #000;
+  --overlay: rgba(50,54,63,0.5);
+/*
+    Blue
+
+    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
+    Stylus: hawkesBlue   -  #EEF5FE, CSS: var(--hawkesBlue)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
+    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
+
+    Styleguide Settings.colors.blue
+    */
+  --zircon: #f5faff;
+  --hawkesBlue: #eef5fe;
+  --frenchPass: #c2dcff;
+  --azure: #1fa8f1;
+  --dodgerBlue: #297ef2;
+  --scienceBlue: #0b61d6;
+  --puertoRico: #0dcbcf;
+/*
+    Green
+
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald      - #35CE68, CSS: var(--emerald)
+    Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
+
+    Styleguide Settings.colors.green
+    */
+  --grannyApple: #def7e7;
+  --weirdGreen: #40de8e;
+  --emerald: #35ce68;
+  --malachite: #08b442;
+  --seafoamGreen: #3da67e;
+/*
+    Orange
+
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
+    Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
+
+    Styleguide Settings.colors.orange
+    */
+  --brightSun: #ffc644;
+  --texasRose: #ffae5f;
+  --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
+/*
+    Red
+
+    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
+    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
+    Stylus: fuchsia      - #FC4C83, CSS: var(--fuchsia)
+    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
+    Stylus: monza        - #DD0505, CSS: var(--monza)
+
+    Styleguide Settings.colors.red
+    */
+  --chablis: #fff2f2;
+  --yourPink: #fdcbcb;
+  --fushsia: #fc4c83;
+  --pomegranate: #f52d2d;
+  --monza: #dd0505;
+/*
+    Purple
+
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
+  --lavender: #c2adf4;
+  --darkPeriwinkle: #6984ce;
+  --purpley: #7f6bee;
+  --portage: #9169f2;
+  --lightishPurple: #b449e7;
+  --barney: #922bc2;
+/*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
+/*
+    Primary
+
+    Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
+    Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
+    Stylus: primaryColorLighter      - #4B93F7, CSS: var(--primaryColorLighter)
+    Stylus: primaryColorLightest     - #9FC4FB, CSS: var(--primaryColorLightest)
+    Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
+
+    Styleguide Settings.theme.primary
+    */
+  --primaryColor: var(--dodgerBlue);
+  --primaryColorLight: #5c9df5;
+  --primaryColorLighter: #4b93f7;
+  --primaryColorLightest: #9fc4fb;
+  --primaryContrastTextColor: var(--white);
+}
 .Infos--2ZZVs {
-  border-radius: 4px;
+  position: relative;
+  border-radius: 8px;
+  padding: 2rem 1.5rem;
+}
+@media (max-width: 48rem) {
+  .Infos--2ZZVs {
+    padding: 1rem;
+  }
+}
+.Infos--2ZZVs.Infos--primary--3i4ll {
+  background-color: var(--zircon);
+}
+.Infos--2ZZVs.Infos--secondary--1AW6F {
+  background-color: var(--paleGrey);
+}
+.Infos--2ZZVs.Infos--danger--3wKYc {
+  background-color: var(--chablis);
+}
+.Infos-description--7P1NP {
   max-width: 32rem;
 }
-.Infos__icon--1IdYS {
-  padding-top: 0.2rem;
-  fill: var(--slateGrey);
+.Info-close--1RVQP {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1rem;
+  cursor: pointer;
+  border: 0;
+  background: transparent;
 }
 
 .context-header--QuTup {
@@ -26725,6 +26884,25 @@ body {
   background-color: var(--slateGrey);
   border-radius: 50%;
   transform: translateY(-50%);
+}
+
+.OrderedList--17A_o {
+  list-style: none;
+  counter-reset: cozy-ui-ordered-list;
+  padding-left: 0;
+  line-height: 1.5;
+}
+.ListItem--2Lu4a {
+  counter-increment: cozy-ui-ordered-list;
+  position: relative;
+  padding-left: 1.5rem;
+}
+.ListItem--2Lu4a::before {
+  content: counter(cozy-ui-ordered-list) ". ";
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 iframe {
@@ -30581,6 +30759,13 @@ body {
   }
 }
 
+.Token--number--2EzoN {
+  color: var(--dodgerBlue);
+}
+.Token--special--3_rSu {
+  color: var(--lightishPurple);
+}
+
 .gridItem-container--387sO {
   text-align: center;
   box-sizing: border-box;
@@ -30610,6 +30795,60 @@ body {
 }
 .CollectionField__row--Z7bbf > * + * {
   margin-left: 1rem;
+}
+
+.PasswordInput--3Oa3V {
+  display: inline-flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 32rem;
+}
+.PasswordInput--withStrength--1Msxm {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.PasswordInput__strength--1hpSg {
+  background-color: var(--paleGrey);
+  border-radius: 0.188rem;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border: 0.063rem solid var(--silver);
+  border-top: 0;
+  box-sizing: border-box;
+  height: 0.25rem;
+}
+.PasswordInput__strength--weak--dzrGl {
+  color: var(--pomegranate);
+}
+.PasswordInput__strength--weak--dzrGl::-webkit-progress-value {
+  background-color: var(--pomegranate);
+}
+.PasswordInput__strength--weak--dzrGl::-moz-progress-bar {
+  background-color: var(--pomegranate);
+}
+.PasswordInput__strength--moderate--1ME_z {
+  color: var(--texasRose);
+}
+.PasswordInput__strength--moderate--1ME_z::-webkit-progress-value {
+  background-color: var(--texasRose);
+}
+.PasswordInput__strength--moderate--1ME_z::-moz-progress-bar {
+  background-color: var(--texasRose);
+}
+.PasswordInput__strength--strong--3yuP0 {
+  color: var(--emerald);
+}
+.PasswordInput__strength--strong--3yuP0::-webkit-progress-value {
+  background-color: var(--emerald);
+}
+.PasswordInput__strength--strong--3yuP0::-moz-progress-bar {
+  background-color: var(--emerald);
+}
+.PasswordInput__visibilityButton--2B6RJ {
+  height: 100%;
+  width: 3rem;
+  background-color: transparent;
+  border: 0;
 }
 
 .u-p-0 {
